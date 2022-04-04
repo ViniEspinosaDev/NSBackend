@@ -52,13 +52,29 @@ namespace NerdStore.Core.DomainObjects
 
         public static void ValidarSeVazio(string valor, string mensagem)
         {
-            if (valor == null || valor.Trim().Length == 0)
+            if (valor != null && valor.Trim().Length != 0)
             {
                 throw new DomainException(mensagem);
             }
         }
 
         public static void ValidarSeNulo(object objeto, string mensagem)
+        {
+            if (objeto != null)
+            {
+                throw new DomainException(mensagem);
+            }
+        }
+
+        public static void ValidarSeNaoVazio(string valor, string mensagem)
+        {
+            if (valor == null || valor.Trim().Length == 0)
+            {
+                throw new DomainException(mensagem);
+            }
+        }
+
+        public static void ValidarSeNaoNulo(object objeto, string mensagem)
         {
             if (objeto == null)
             {
@@ -106,7 +122,7 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(double valor, double minimo, string mensagem)
+        public static void ValidarSeNaoMenorIgualMinimo(double valor, double minimo, string mensagem)
         {
             if (valor <= minimo)
             {
@@ -114,7 +130,7 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(float valor, float minimo, string mensagem)
+        public static void ValidarSeNaoMenorIgualMinimo(float valor, float minimo, string mensagem)
         {
             if (valor <= minimo)
             {
@@ -122,7 +138,7 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(int valor, int minimo, string mensagem)
+        public static void ValidarSeNaoMenorIgualMinimo(int valor, int minimo, string mensagem)
         {
             if (valor <= minimo)
             {
@@ -130,7 +146,7 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(long valor, long minimo, string mensagem)
+        public static void ValidarSeNaoMenorIgualMinimo(long valor, long minimo, string mensagem)
         {
             if (valor <= minimo)
             {
@@ -138,7 +154,7 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(decimal valor, decimal minimo, string mensagem)
+        public static void ValidarSeNaoMenorIgualMinimo(decimal valor, decimal minimo, string mensagem)
         {
             if (valor <= minimo)
             {
