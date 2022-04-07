@@ -4,6 +4,7 @@ namespace NerdStore.Core.DomainObjects
 {
     public class Validations
     {
+        // TODO: Arrumar para dar exceção caso validação atenda o nome. Ex: ValidarSeIgual -> Se for igual dá erro
         public static void ValidarSeIgual(object objeto1, object objeto2, string mensagem)
         {
             if (!objeto1.Equals(objeto2))

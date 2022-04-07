@@ -1,10 +1,11 @@
 ﻿using NerdStore.Core.DomainObjects;
 using System;
 
-namespace NerdStore.Catalogo.Domain
+namespace NerdStore.Catalogo.Domain.Models
 {
     public class Produto : Entity, IAggregateRoot
     {
+        // TODO: Criar teste de unidade para essa classe
         public Produto(
             string nome,
             string descricao,
@@ -12,7 +13,8 @@ namespace NerdStore.Catalogo.Domain
             decimal valor,
             Guid categoriaId,
             DateTime dataCadastro,
-            string imagem)
+            string imagem,
+            Dimensoes dimensoes)
         {
             Nome = nome;
             Descricao = descricao;
@@ -21,6 +23,7 @@ namespace NerdStore.Catalogo.Domain
             CategoriaId = categoriaId;
             DataCadastro = dataCadastro;
             Imagem = imagem;
+            Dimensoes = dimensoes;
 
             Validar();
         }
@@ -33,7 +36,7 @@ namespace NerdStore.Catalogo.Domain
         public DateTime DataCadastro { get; private set; }
         public string Imagem { get; private set; }
         public int QuantidadeEstoque { get; private set; }
-
+        public Dimensoes Dimensoes { get; private set; }
         public Categoria Categoria { get; private set; }
 
         public void Ativar() => Ativo = true;
