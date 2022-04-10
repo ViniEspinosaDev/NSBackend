@@ -1,10 +1,13 @@
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.deps.json
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.dll
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.csproj.AssemblyReference.cache
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.AssemblyInfoInputs.cache
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.AssemblyInfo.cs
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.csproj.CopyComplete
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.dll
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.pdb

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NerdStore.Tests
+build_property.ProjectDir = C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\
