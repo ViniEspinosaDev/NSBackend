@@ -4,44 +4,23 @@ namespace NerdStore.Core.DomainObjects
 {
     public class Validations
     {
-        // TODO: Arrumar para dar exceção caso validação atenda o nome. Ex: ValidarSeIgual -> Se for igual dá erro
-        public static void ValidarSeIgual(object objeto1, object objeto2, string mensagem)
+        public static void ValidarSeIgual(object object1, object object2, string mensagem)
         {
-            if (!objeto1.Equals(objeto2))
+            if (object1.Equals(object2))
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarSeDiferente(object objeto1, object objeto2, string mensagem)
+        public static void ValidarSeDiferente(object object1, object object2, string mensagem)
         {
-            if (objeto1.Equals(objeto2))
+            if (!object1.Equals(object2))
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarCaracteres(string valor, int maximo, string mensagem)
-        {
-            var tamanho = valor.Trim().Length;
-
-            if (tamanho > maximo)
-            {
-                throw new DomainException(mensagem);
-            }
-        }
-
-        public static void ValidarCaracteres(string valor, int minimo, int maximo, string mensagem)
-        {
-            var tamanho = valor.Trim().Length;
-
-            if (tamanho < minimo || tamanho > maximo)
-            {
-                throw new DomainException(mensagem);
-            }
-        }
-
-        public static void ValidarExpressao(string pattern, string valor, string mensagem)
+        public static void ValidarSeDiferente(string pattern, string valor, string mensagem)
         {
             var regex = new Regex(pattern);
 
@@ -51,23 +30,25 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
+        public static void ValidarTamanho(string valor, int maximo, string mensagem)
+        {
+            var length = valor.Trim().Length;
+            if (length > maximo)
+            {
+                throw new DomainException(mensagem);
+            }
+        }
+
+        public static void ValidarTamanho(string valor, int minimo, int maximo, string mensagem)
+        {
+            var length = valor.Trim().Length;
+            if (length < minimo || length > maximo)
+            {
+                throw new DomainException(mensagem);
+            }
+        }
+
         public static void ValidarSeVazio(string valor, string mensagem)
-        {
-            if (valor != null && valor.Trim().Length != 0)
-            {
-                throw new DomainException(mensagem);
-            }
-        }
-
-        public static void ValidarSeNulo(object objeto, string mensagem)
-        {
-            if (objeto != null)
-            {
-                throw new DomainException(mensagem);
-            }
-        }
-
-        public static void ValidarSeNaoVazio(string valor, string mensagem)
         {
             if (valor == null || valor.Trim().Length == 0)
             {
@@ -75,9 +56,9 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeNaoNulo(object objeto, string mensagem)
+        public static void ValidarSeNulo(object object1, string mensagem)
         {
-            if (objeto == null)
+            if (object1 == null)
             {
                 throw new DomainException(mensagem);
             }
@@ -123,57 +104,49 @@ namespace NerdStore.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeNaoMenorIgualMinimo(double valor, double minimo, string mensagem)
+        public static void ValidarSeMenorQue(long valor, long minimo, string mensagem)
         {
-            if (valor <= minimo)
+            if (valor < minimo)
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarSeNaoMenorIgualMinimo(float valor, float minimo, string mensagem)
+        public static void ValidarSeMenorQue(double valor, double minimo, string mensagem)
         {
-            if (valor <= minimo)
+            if (valor < minimo)
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarSeNaoMenorIgualMinimo(int valor, int minimo, string mensagem)
+        public static void ValidarSeMenorQue(decimal valor, decimal minimo, string mensagem)
         {
-            if (valor <= minimo)
+            if (valor < minimo)
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarSeNaoMenorIgualMinimo(long valor, long minimo, string mensagem)
+        public static void ValidarSeMenorQue(int valor, int minimo, string mensagem)
         {
-            if (valor <= minimo)
+            if (valor < minimo)
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarSeNaoMenorIgualMinimo(decimal valor, decimal minimo, string mensagem)
+        public static void ValidarSeFalso(bool boolvalor, string mensagem)
         {
-            if (valor <= minimo)
+            if (!boolvalor)
             {
                 throw new DomainException(mensagem);
             }
         }
 
-        public static void ValidarSeFalso(bool valor, string mensagem)
+        public static void ValidarSeVerdadeiro(bool boolvalor, string mensagem)
         {
-            if (valor)
-            {
-                throw new DomainException(mensagem);
-            }
-        }
-
-        public static void ValidarSeVerdadeiro(bool valor, string mensagem)
-        {
-            if (!valor)
+            if (boolvalor)
             {
                 throw new DomainException(mensagem);
             }

@@ -10,7 +10,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "Dados devem ser iguais";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeIgual(1, 2, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeIgual(1, 1, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -18,9 +18,9 @@ namespace NerdStore.Tests.Core
         [Fact]
         public void Deve_Validar_Se_Igual_Corretamente()
         {
-            string mensagem = "Dados devem ser iguais";
+            string mensagem = "Dados devem ser diferentes";
 
-            Validations.ValidarSeIgual(2, 2, mensagem);
+            Validations.ValidarSeIgual(2, 3, mensagem);
 
             Assert.True(true);
         }
@@ -30,7 +30,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "Dados devem ser diferentes";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeDiferente(2, 2, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeDiferente(2, 3, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -40,7 +40,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "Dados devem ser iguais";
 
-            Validations.ValidarSeDiferente(1, 2, mensagem);
+            Validations.ValidarSeDiferente(1, 1, mensagem);
 
             Assert.True(true);
         }
@@ -51,7 +51,7 @@ namespace NerdStore.Tests.Core
             string valor = "1234567890";
             string mensagem = "Palavra deve ter no máximo 9 caracteres";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarCaracteres(valor, 9, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarTamanho(valor, 9, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -62,7 +62,7 @@ namespace NerdStore.Tests.Core
             string valor = "1234567890";
             string mensagem = "Palavra deve ter no máximo 9 caracteres";
 
-            Validations.ValidarCaracteres(valor, 10, mensagem);
+            Validations.ValidarTamanho(valor, 10, mensagem);
 
             Assert.True(true);
         }
@@ -73,7 +73,7 @@ namespace NerdStore.Tests.Core
             string valor = "1234567890";
             string mensagem = "Palavra deve ter no mínimo 7 e no máximo 9 caracteres";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarCaracteres(valor, 7, 9, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarTamanho(valor, 7, 9, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -84,7 +84,7 @@ namespace NerdStore.Tests.Core
             string valor = "123456";
             string mensagem = "Palavra deve ter no mínimo 7 e no máximo 9 caracteres";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarCaracteres(valor, 7, 9, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarTamanho(valor, 7, 9, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -95,7 +95,7 @@ namespace NerdStore.Tests.Core
             string valor = "123456789";
             string mensagem = "Palavra deve ter no mínimo 7 e no máximo 9 caracteres";
 
-            Validations.ValidarCaracteres(valor, 7, 9, mensagem);
+            Validations.ValidarTamanho(valor, 7, 9, mensagem);
 
             Assert.True(true);
         }
@@ -115,7 +115,7 @@ namespace NerdStore.Tests.Core
         [Fact]
         public void Deve_Dar_Erro_Ao_Validar_Se_Vazio()
         {
-            string valor = "1234567890";
+            string valor = "";
             string mensagem = "Valor deve ser vazio";
 
             var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeVazio(valor, mensagem));
@@ -126,8 +126,8 @@ namespace NerdStore.Tests.Core
         [Fact]
         public void Deve_Validar_Se_Vazio_Corretamente()
         {
-            string valor = "";
-            string mensagem = "Valor deve ser vazio";
+            string valor = "nao";
+            string mensagem = "Valor não deve ser vazio";
 
             Validations.ValidarSeVazio(valor, mensagem);
 
@@ -137,7 +137,7 @@ namespace NerdStore.Tests.Core
         [Fact]
         public void Deve_Dar_Erro_Ao_Validar_Se_Nulo()
         {
-            string valor = "1234567890";
+            string valor = null;
             string mensagem = "Valor deve ser nulo";
 
             var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNulo(valor, mensagem));
@@ -148,7 +148,7 @@ namespace NerdStore.Tests.Core
         [Fact]
         public void Deve_Validar_Se_Nulo_Corretamente()
         {
-            string valor = null;
+            string valor = "nao";
             string mensagem = "Valor deve ser vazio";
 
             Validations.ValidarSeNulo(valor, mensagem);
@@ -162,7 +162,7 @@ namespace NerdStore.Tests.Core
             string valor = "";
             string mensagem = "Valor não deve ser vazio";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoVazio(valor, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeVazio(valor, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -173,7 +173,7 @@ namespace NerdStore.Tests.Core
             string valor = "1234567890";
             string mensagem = "Valor não deve ser vazio";
 
-            Validations.ValidarSeNaoVazio(valor, mensagem);
+            Validations.ValidarSeNulo(valor, mensagem);
 
             Assert.True(true);
         }
@@ -184,7 +184,7 @@ namespace NerdStore.Tests.Core
             string valor = null;
             string mensagem = "Valor não deve ser nulo";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoNulo(valor, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNulo(valor, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -195,7 +195,7 @@ namespace NerdStore.Tests.Core
             string valor = "1234567890";
             string mensagem = "Valor não deve ser nulo";
 
-            Validations.ValidarSeNaoNulo(valor, mensagem);
+            Validations.ValidarSeNulo(valor, mensagem);
 
             Assert.True(true);
         }
@@ -418,7 +418,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeMenorQue(valor, minimo, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -431,7 +431,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem);
+            Validations.ValidarSeMenorQue(valor, minimo, mensagem);
 
             Assert.True(true);
         }
@@ -444,7 +444,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeMenorQue(valor, minimo, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -457,7 +457,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem);
+            Validations.ValidarSeMenorQue(valor, minimo, mensagem);
 
             Assert.True(true);
         }
@@ -470,7 +470,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeMenorQue(valor, minimo, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -483,7 +483,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem);
+            Validations.ValidarSeMenorQue(valor, minimo, mensagem);
 
             Assert.True(true);
         }
@@ -496,7 +496,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeMenorQue(valor, minimo, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -509,7 +509,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem);
+            Validations.ValidarSeMenorQue(valor, minimo, mensagem);
 
             Assert.True(true);
         }
@@ -522,7 +522,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeMenorQue(valor, minimo, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -535,7 +535,7 @@ namespace NerdStore.Tests.Core
 
             string mensagem = $"Valor não deve ser menor ou igual {minimo}";
 
-            Validations.ValidarSeNaoMenorIgualMinimo(valor, minimo, mensagem);
+            Validations.ValidarSeMenorQue(valor, minimo, mensagem);
 
             Assert.True(true);
         }
@@ -545,7 +545,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "O valor deve ser falso";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeFalso(true, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeFalso(false, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -555,7 +555,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "O valor deve ser falso";
 
-            Validations.ValidarSeFalso(false, mensagem);
+            Validations.ValidarSeFalso(true, mensagem);
 
             Assert.True(true);
         }
@@ -565,7 +565,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "O valor deve ser verdadeiro";
 
-            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeVerdadeiro(false, mensagem));
+            var excecao = Assert.Throws<DomainException>(() => Validations.ValidarSeVerdadeiro(true, mensagem));
 
             Assert.Contains(mensagem, excecao.Message);
         }
@@ -575,7 +575,7 @@ namespace NerdStore.Tests.Core
         {
             string mensagem = "O valor deve ser verdadeiro";
 
-            Validations.ValidarSeVerdadeiro(true, mensagem);
+            Validations.ValidarSeVerdadeiro(false, mensagem);
 
             Assert.True(true);
         }
