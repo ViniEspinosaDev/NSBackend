@@ -1,0 +1,10 @@
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Data.deps.json
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Data.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Data.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.csproj.AssemblyReference.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.AssemblyInfoInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.AssemblyInfo.cs
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.csproj.CoreCompileInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.pdb

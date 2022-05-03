@@ -10,6 +10,7 @@ C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\N
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\NerdStore.Tests.runtimeconfig.dev.json
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\NerdStore.Tests.dll
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\NerdStore.Tests.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll

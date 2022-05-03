@@ -1,0 +1,13 @@
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.deps.json
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.AssemblyReference.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.AssemblyInfo.cs
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.CopyComplete
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb

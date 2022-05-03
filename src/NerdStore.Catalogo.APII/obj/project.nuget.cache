@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "b/8XznP7PsEW+Vk0Q9PSkQ0UBh1ioeTkfy2eFZQ/e0nM29A83i+OJWl+Zz/mcTRNAmdxJND/0CI77rt5XeoF8g==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\DesenvolvedorIO\\NerdStore\\src\\NerdStore.Catalogo.APII\\NerdStore.Catalogo.APII.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\espin\\.nuget\\packages\\microsoft.aspnetcore.mvc.api.analyzers\\2.2.6\\microsoft.aspnetcore.mvc.api.analyzers.2.2.6.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
