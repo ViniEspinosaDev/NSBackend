@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wgnXUph73UVDt27bMUzznM7XF7eCq+gynsiQw+E0Ap2mKxwS9MCqgNM2Avnosusy67H24gsYxSX+Orbpb/dqOg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\DesenvolvedorIO\\NerdStore\\src\\NerdStore.Core.CrossCuttingIoc\\NerdStore.Core.CrossCuttingIoc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\espin\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

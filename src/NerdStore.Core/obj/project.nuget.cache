@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XAxfRjcQN+TZqeiNsuDgQhSitmvJz8g3yrXtciXW2sb0DOstetYTdutWJaJqDAbCwlwxRW6DUWXSUxVwXSCBzg==",
+  "dgSpecHash": "bVYymNoc2bAfbxggc593f4+1YYCLd8q/BF1IkVhC5sVvZ1hLW1dNQXPMxrNuUd64+DAxrMz0DuxXx/ctqF7N/A==",
   "success": true,
   "projectFilePath": "C:\\Dev\\DesenvolvedorIO\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\espin\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512"
+    "C:\\Users\\espin\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
+    "C:\\Users\\espin\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

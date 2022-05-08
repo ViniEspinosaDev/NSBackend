@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i1tHSnhQ9/uXNPmpxTGei084NNGlZVey493slIJPgFAh3GeFMfY/6g7dqDD6tuz38HQ33WNdOoE/TIvvZkeODA==",
+  "dgSpecHash": "xkielXJSoIjOssevh9P3PPjWBDWUmTLfSl4g9r1WtE0uI6WVZyYV5pKlQXiIny6xPvqHQ/Lw6JAQD2i+IfKvEQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\DesenvolvedorIO\\NerdStore\\src\\NerdStore.Catalogo.CrossCuttingIoC\\NerdStore.Catalogo.CrossCuttingIoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\espin\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

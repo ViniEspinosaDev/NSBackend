@@ -1,4 +1,5 @@
-﻿using NerdStore.Core.DomainObjects;
+﻿using FluentValidation.Results;
+using NerdStore.Core.DomainObjects;
 using NerdStore.Vendas.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -41,7 +42,7 @@ namespace NerdStore.Vendas.Domain.Models
 
             item.AssociarPedido(Id);
 
-            if (PedidoItemsExistente(item))
+            if (PedidoItemExistente(item))
             {
                 var itemExistente = _itens.FirstOrDefault(i => i.ProdutoId == item.ProdutoId);
                 itemExistente.AdicionarUnidades(item.Quantidade);
@@ -91,11 +92,17 @@ namespace NerdStore.Vendas.Domain.Models
             AtualizarItem(item);
         }
 
-        public void AplicarVoucher(Voucher voucher)
+        public ValidationResult AplicarVoucher(Voucher voucher)
         {
+            var validationResult = voucher.ValidarSeAplicavel();
+
+            if (!validationResult.IsValid) return validationResult;
+
             Voucher = voucher;
             VoucherUtilizado = true;
             CalcularValorPedido();
+
+            return validationResult;
         }
 
         public void CalcularValorPedido()
@@ -104,7 +111,7 @@ namespace NerdStore.Vendas.Domain.Models
             CalcularValorTotalDesconto();
         }
 
-        public bool PedidoItemsExistente(PedidoItem item)
+        public bool PedidoItemExistente(PedidoItem item)
         {
             return _itens.Any(i => i.ProdutoId == item.ProdutoId);
         }

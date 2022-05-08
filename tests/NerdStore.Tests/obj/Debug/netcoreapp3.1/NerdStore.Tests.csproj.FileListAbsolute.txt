@@ -100,3 +100,4 @@ C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\obj\Debug\netcoreapp3.1\N
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\obj\Debug\netcoreapp3.1\NerdStore.Tests.dll
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\obj\Debug\netcoreapp3.1\NerdStore.Tests.pdb
 C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\obj\Debug\netcoreapp3.1\NerdStore.Tests.genruntimeconfig.cache
+C:\Dev\DesenvolvedorIO\NerdStore\tests\NerdStore.Tests\bin\Debug\netcoreapp3.1\FluentValidation.dll

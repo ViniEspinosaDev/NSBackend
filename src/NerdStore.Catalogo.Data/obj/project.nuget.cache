@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uMlSQnyPIyx0GslHbZdOXSUG/5kPGz29IK+lJSfddP2/hl0Gyi8elPXSBjx7ZEq+EZp5+Lz5PqiTKpCWjGN8Fw==",
+  "dgSpecHash": "xNg8vaiC92cDEgTF5BffNnAG+rjGhd94BziDCPn7d2jXcT2B41QQujo8+w5qmCantDmMUGIGvYTPCjUdQQkDjQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\DesenvolvedorIO\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\espin\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

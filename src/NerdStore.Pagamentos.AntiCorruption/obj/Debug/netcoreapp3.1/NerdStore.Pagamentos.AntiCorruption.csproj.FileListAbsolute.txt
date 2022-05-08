@@ -1,0 +1,10 @@
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.deps.json
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.csproj.AssemblyReference.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.AssemblyInfoInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.AssemblyInfo.cs
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.csproj.CoreCompileInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.AntiCorruption.pdb

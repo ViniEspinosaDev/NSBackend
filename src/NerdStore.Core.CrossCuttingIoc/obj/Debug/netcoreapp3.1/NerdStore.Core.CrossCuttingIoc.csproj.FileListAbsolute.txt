@@ -1,0 +1,13 @@
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.csproj.AssemblyReference.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.AssemblyInfoInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.AssemblyInfo.cs
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.csproj.CoreCompileInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\bin\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.deps.json
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\bin\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\bin\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.csproj.CopyComplete
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Core.CrossCuttingIoc\obj\Debug\netcoreapp3.1\NerdStore.Core.CrossCuttingIoc.pdb

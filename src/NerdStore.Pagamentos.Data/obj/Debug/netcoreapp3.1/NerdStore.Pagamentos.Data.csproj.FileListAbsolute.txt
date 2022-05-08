@@ -1,0 +1,10 @@
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.deps.json
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.csproj.AssemblyReference.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.AssemblyInfoInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.AssemblyInfo.cs
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.csproj.CoreCompileInputs.cache
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\netcoreapp3.1\NerdStore.Pagamentos.Data.pdb

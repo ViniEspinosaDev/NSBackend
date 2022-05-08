@@ -8,3 +8,8 @@ C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.csproj.CoreCompileInputs.cache
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.dll
 C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+C:\Dev\DesenvolvedorIO\NerdStore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.csproj.CopyComplete
