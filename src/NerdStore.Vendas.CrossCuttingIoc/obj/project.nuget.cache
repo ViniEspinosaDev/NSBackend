@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6kUaBVVs6OCqsblRJxOowIgWkBVOKBDODLW7qJIDUvgWr9Aj//P4T1yEYAbsiz/5S695mNkrz8xiB4a0IToORw==",
+  "dgSpecHash": "HJr3c8lWWxezoaovm6/6RqgsvsE+DjqFV8XdZeqAGZ4O0fX/GsppGNO/BzOd1+iGWaz9Bnij4EctE/0jmuTNIw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\DesenvolvedorIO\\NerdStore\\src\\NerdStore.Vendas.CrossCuttingIoc\\NerdStore.Vendas.CrossCuttingIoc.csproj",
   "expectedPackageFiles": [
